@@ -14,12 +14,12 @@ for(const heart of icon){
     })
 
 }
-let coin = document.getElementsByClassName("call-btn")
+let coin = document.getElementById("coin-btn")
 for(let call of coin){
     call.addEventListener('click', function(){
         if(coin>0){
             coin--
-            const cbu = document.getElementById("coin-btn")
+            const cbu = document.getElementsByClassName("call-btn")
         cbu.innerText= coin
         }
        
