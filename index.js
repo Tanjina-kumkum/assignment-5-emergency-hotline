@@ -1,6 +1,7 @@
-// document.getElementById("card-btn")
-// .addEventListener
-// ("mouseover",function(){alert("National Emergency Number clicked");} );
+      document.getElementById("card-btn") 
+      .addEventListener
+("mouseover",function(){alert("National Emergency Number clicked");} );
+
 
 
 const icon = document.getElementsByClassName("heart") 
@@ -13,4 +14,3 @@ for(const heart of icon){
     })
 
 }
-const button = document.getElementsByClassName
