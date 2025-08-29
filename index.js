@@ -14,3 +14,14 @@ for(const heart of icon){
     })
 
 }
+let coin = document.getElementsByClassName("call-btn")
+for(let call of coin){
+    call.addEventListener('click', function(){
+        if(coin>0){
+            coin--
+            const cbu = document.getElementById("coin-btn")
+        cbu.innerText= coin
+        }
+       
+    })
+}
